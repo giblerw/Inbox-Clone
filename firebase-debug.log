@@ -181,3 +181,38 @@
     at process._tickCallback (internal/process/next_tick.js:180:9)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2017-12-14T22:34:50.226Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T22:34:50.229Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-14T22:34:50.229Z] CLI Version:   3.10.1
+[debug] [2017-12-14T22:34:50.229Z] Platform:      darwin
+[debug] [2017-12-14T22:34:50.229Z] Node Version:  v8.9.1
+[debug] [2017-12-14T22:34:50.229Z] Time:          Thu Dec 14 2017 15:34:50 GMT-0700 (MST)
+[debug] [2017-12-14T22:34:50.230Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-14T22:34:50.240Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T22:34:50.240Z] > authorizing via signed-in user
+[debug] [2017-12-14T22:34:50.242Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:34:50 GMT-0700 (MST)
+[debug] [2017-12-14T22:34:50.543Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:34:50.544Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/westons-react-inbox/tokens  
+ Thu Dec 14 2017 15:34:50 GMT-0700 (MST)
+[debug] [2017-12-14T22:34:50.990Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/DigitalEntities/playgrounds/inbox/react-inbox'...
+[info] 
+[debug] [2017-12-14T22:34:50.993Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:34:50 GMT-0700 (MST)
+[debug] [2017-12-14T22:34:51.289Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:34:51.290Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184655445322/clients/_:getWebAppConfig  
+ Thu Dec 14 2017 15:34:51 GMT-0700 (MST)
+[debug] [2017-12-14T22:34:51.967Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:34:51.984Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
