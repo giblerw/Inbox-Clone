@@ -1,0 +1,132 @@
+body {
+
+  background: #c6d9eb;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-bar {
+  background: #689bca;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-header {
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 0px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 330%;
+}
+.nav-sub {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 0px;
+  padding-bottom: 6px;
+}
+
+.message {
+  margin-left: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #efefef;
+}
+
+.message a {
+  color: black;
+}
+
+.message a:hover, .message a:active, .message a:focus {
+  text-decoration: none;
+}
+
+.message + .message {
+  border-top: 1px solid #efefef;
+}
+
+.message.read {
+  background: #efefef;
+}
+
+.message.unread {
+  font-weight: bold;
+  background: rgba(233,148,45,.5);
+}
+
+.message.selected {
+  background: #ffffcc;
+}
+
+.message:hover {
+  margin-left: -3px;
+  border-left: 3px solid #ccc;
+}
+
+.message-body {
+  background: #ccc;
+  margin-left: 0;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.toolbar {
+  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 6em;
+}
+
+.toolbar .label-select {
+  width: 100px;
+  height: 45px;
+  display: inline;
+}
+
+
+.toolbar select,
+.toolbar button,
+.toolbar a,
+.toolbar .badge {
+  margin-right: 0em;
+  margin-bottom: .5em;
+  width: 100px;
+  height: 45px;
+  padding-top: 0px;
+}
+
+.toolbar i {
+  padding-top: 6px;
+}
+
+.toolbar h5 {
+  margin-top: 6px;
+}
+
+.toolbar .badge {
+  margin-right: 100px;
+}
+
+.toolbar .btn-group {
+  margin: 0px;
+
+}
+footer.spacer {
+  margin-bottom: 20em;
+}
+
+select {
+  margin-left: 30px;
+}
+
+.label {
+  margin-right: .5em;
+}
+
+.fa-close {
+  cursor: pointer;
+}
