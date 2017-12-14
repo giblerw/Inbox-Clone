@@ -41,3 +41,143 @@
     at process._tickCallback (internal/process/next_tick.js:180:9)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2017-12-14T22:32:11.164Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T22:32:11.166Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-14T22:32:11.166Z] CLI Version:   3.10.1
+[debug] [2017-12-14T22:32:11.166Z] Platform:      darwin
+[debug] [2017-12-14T22:32:11.166Z] Node Version:  v8.9.1
+[debug] [2017-12-14T22:32:11.167Z] Time:          Thu Dec 14 2017 15:32:11 GMT-0700 (MST)
+[debug] [2017-12-14T22:32:11.167Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-14T22:32:11.181Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T22:32:11.181Z] > authorizing via signed-in user
+[debug] [2017-12-14T22:32:11.183Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:32:11 GMT-0700 (MST)
+[debug] [2017-12-14T22:32:11.497Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:32:11.498Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/westons-react-inbox/tokens  
+ Thu Dec 14 2017 15:32:11 GMT-0700 (MST)
+[debug] [2017-12-14T22:32:11.917Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/DigitalEntities/playgrounds/inbox/react-inbox'...
+[info] 
+[debug] [2017-12-14T22:32:11.920Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:32:11 GMT-0700 (MST)
+[debug] [2017-12-14T22:32:12.226Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:32:12.227Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184655445322/clients/_:getWebAppConfig  
+ Thu Dec 14 2017 15:32:12 GMT-0700 (MST)
+[debug] [2017-12-14T22:32:12.616Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:32:12.634Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-12-14T22:33:23.603Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T22:33:23.605Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-14T22:33:23.605Z] CLI Version:   3.10.1
+[debug] [2017-12-14T22:33:23.605Z] Platform:      darwin
+[debug] [2017-12-14T22:33:23.605Z] Node Version:  v8.9.1
+[debug] [2017-12-14T22:33:23.606Z] Time:          Thu Dec 14 2017 15:33:23 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:23.606Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-14T22:33:23.616Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T22:33:23.616Z] > authorizing via signed-in user
+[debug] [2017-12-14T22:33:23.619Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:33:23 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:23.955Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:23.956Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/westons-react-inbox/tokens  
+ Thu Dec 14 2017 15:33:23 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:24.228Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/DigitalEntities/playgrounds/inbox/react-inbox'...
+[info] 
+[debug] [2017-12-14T22:33:24.231Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:33:24 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:24.539Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:24.540Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184655445322/clients/_:getWebAppConfig  
+ Thu Dec 14 2017 15:33:24 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:24.991Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:25.008Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-12-14T22:33:43.950Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T22:33:43.952Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-14T22:33:43.952Z] CLI Version:   3.10.1
+[debug] [2017-12-14T22:33:43.953Z] Platform:      darwin
+[debug] [2017-12-14T22:33:43.953Z] Node Version:  v8.9.1
+[debug] [2017-12-14T22:33:43.953Z] Time:          Thu Dec 14 2017 15:33:43 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:43.953Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-14T22:33:43.963Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T22:33:43.963Z] > authorizing via signed-in user
+[debug] [2017-12-14T22:33:43.965Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:33:43 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:44.280Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:44.281Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/westons-react-inbox/tokens  
+ Thu Dec 14 2017 15:33:44 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:44.623Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/DigitalEntities/playgrounds/inbox/react-inbox'...
+[info] 
+[debug] [2017-12-14T22:33:44.627Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:33:44 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:44.973Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:44.973Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184655445322/clients/_:getWebAppConfig  
+ Thu Dec 14 2017 15:33:44 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:45.509Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:45.526Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-12-14T22:33:54.627Z] ----------------------------------------------------------------------
+[debug] [2017-12-14T22:33:54.629Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-12-14T22:33:54.629Z] CLI Version:   3.10.1
+[debug] [2017-12-14T22:33:54.629Z] Platform:      darwin
+[debug] [2017-12-14T22:33:54.629Z] Node Version:  v8.9.1
+[debug] [2017-12-14T22:33:54.629Z] Time:          Thu Dec 14 2017 15:33:54 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:54.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-14T22:33:54.643Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-14T22:33:54.644Z] > authorizing via signed-in user
+[debug] [2017-12-14T22:33:54.646Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:33:54 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:54.928Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:54.929Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/westons-react-inbox/tokens  
+ Thu Dec 14 2017 15:33:54 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:55.443Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/DigitalEntities/playgrounds/inbox/react-inbox'...
+[info] 
+[debug] [2017-12-14T22:33:55.446Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/westons-react-inbox  
+ Thu Dec 14 2017 15:33:55 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:55.694Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:55.694Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184655445322/clients/_:getWebAppConfig  
+ Thu Dec 14 2017 15:33:55 GMT-0700 (MST)
+[debug] [2017-12-14T22:33:56.023Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-14T22:33:56.040Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (/usr/local/lib/node_modules/firebase-tools/lib/serve/hosting.js:34:18)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:106:13)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1378:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
