@@ -37,7 +37,7 @@ class Message extends Component {
         </div>
         <div className="col-xs-11">
           {this.getLabels()}
-          <a href="#">
+          <a>
             {this.props.subject}
           </a>
         </div>
