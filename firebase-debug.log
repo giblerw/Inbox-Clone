@@ -23,3 +23,20 @@
  Thu Jan 11 2018 00:28:39 GMT-0700 (MST)
 [debug] [2018-01-11T07:28:39.606Z] <<< HTTP RESPONSE 200
 [info] 
+[debug] [2018-01-11T07:40:27.569Z] ----------------------------------------------------------------------
+[debug] [2018-01-11T07:40:27.571Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-01-11T07:40:27.571Z] CLI Version:   3.10.1
+[debug] [2018-01-11T07:40:27.571Z] Platform:      darwin
+[debug] [2018-01-11T07:40:27.571Z] Node Version:  v9.2.1
+[debug] [2018-01-11T07:40:27.571Z] Time:          Thu Jan 11 2018 00:40:27 GMT-0700 (MST)
+[debug] [2018-01-11T07:40:27.571Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-11T07:40:27.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-11T07:40:27.586Z] > authorizing via signed-in user
+[debug] [2018-01-11T07:40:27.588Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/westons-react-inbox  
+ Thu Jan 11 2018 00:40:27 GMT-0700 (MST)
+[debug] [2018-01-11T07:40:28.096Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-11T07:40:28.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/westons-react-inbox/tokens  
+ Thu Jan 11 2018 00:40:28 GMT-0700 (MST)
+[debug] [2018-01-11T07:40:28.515Z] <<< HTTP RESPONSE 200
+[info] 
