@@ -7,7 +7,7 @@ body {
 }
 
 .nav-bar {
-  background: #689bca;
+  background: #888bca;
   margin: 0px;
   padding: 0px;
 }
@@ -19,6 +19,14 @@ body {
   margin-bottom: 0px;
   font-family: 'Montserrat', sans-serif;
   font-size: 330%;
+}
+.nav-subHeader {
+  margin-left: 300px;
+}
+.nav-subHead {
+  margin-left: 45px;
+  padding-top: 20px;
+
 }
 .nav-sub {
   text-align: right;

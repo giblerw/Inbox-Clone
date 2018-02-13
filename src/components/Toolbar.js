@@ -62,7 +62,9 @@ class Toolbar extends React.Component {
       let newData = this.state.data;
       let allChecked = true;
       let allUnchecked = true;
+
       newData[i].selected = !newData[i].selected
+
       for (var j = 0; j < newData.length; j++) {
         if (newData[j].selected) {
           allUnchecked = false;
@@ -70,13 +72,14 @@ class Toolbar extends React.Component {
           allChecked = false;
         }
       }
-      if (allChecked) {
-        this.setState({checked: true, someChecked: false, data: newData})
-      } else if (allUnchecked) {
-        this.setState({checked: false, someChecked: false, data: newData})
-      } else {
-        this.setState({checked: false, someChecked: true, data: newData})
-      }
+      
+        if (allChecked) {
+          this.setState({checked: true, someChecked: false, data: newData})
+        } else if (allUnchecked) {
+          this.setState({checked: false, someChecked: false, data: newData})
+        } else {
+          this.setState({checked: false, someChecked: true, data: newData})
+        }
     }
 
   isChecked() {
